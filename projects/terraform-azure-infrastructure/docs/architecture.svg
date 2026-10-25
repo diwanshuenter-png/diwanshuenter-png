@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <rect width="1000" height="560" rx="22" fill="#0b1220"/>
+  <text x="500" y="48" font-family="Arial,sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#ffffff">Terraform on Azure — Reference Architecture</text>
+  <text x="500" y="76" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#a9c1dd">Portfolio lab design • resources are not deployed by this diagram</text>
+  <rect x="60" y="112" width="880" height="82" rx="12" fill="#14253c" stroke="#5b9bd5" stroke-width="2"/>
+  <text x="500" y="143" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">Engineer / CI Pipeline</text>
+  <text x="500" y="169" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#c5d9ef">Git source • terraform fmt / validate • security scan • plan review</text>
+  <path d="M500 194 V225" stroke="#8bc5ff" stroke-width="3"/><path d="M492 216 L500 226 L508 216" fill="none" stroke="#8bc5ff" stroke-width="3"/>
+  <rect x="60" y="230" width="420" height="104" rx="12" fill="#172b46" stroke="#00a4ef" stroke-width="2"/>
+  <text x="270" y="262" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">Terraform Configuration</text>
+  <text x="270" y="288" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#c5d9ef">Root module • reusable modules</text>
+  <text x="270" y="311" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#c5d9ef">variables • outputs • provider lock</text>
+  <rect x="520" y="230" width="420" height="104" rx="12" fill="#172b46" stroke="#00a4ef" stroke-width="2"/>
+  <text x="730" y="262" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">Remote State (planned)</text>
+  <text x="730" y="288" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#c5d9ef">Azure Storage backend</text>
+  <text x="730" y="311" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#c5d9ef">RBAC • state locking • access control</text>
+  <path d="M270 334 V365 H500 V390" stroke="#8bc5ff" stroke-width="3" fill="none"/><path d="M492 380 L500 391 L508 380" fill="none" stroke="#8bc5ff" stroke-width="3"/>
+  <rect x="110" y="395" width="780" height="105" rx="12" fill="#123a36" stroke="#22c55e" stroke-width="2"/>
+  <text x="500" y="426" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#ffffff">Azure Subscription (target environment)</text>
+  <rect x="145" y="443" width="300" height="40" rx="8" fill="#1b554d"/><text x="295" y="468" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Resource Group module</text>
+  <rect x="555" y="443" width="300" height="40" rx="8" fill="#1b554d"/><text x="705" y="468" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Storage Account example</text>
+  <text x="500" y="535" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#a9c1dd">Illustrative design only • configure identity, backend and approvals before applying</text>
+</svg>
