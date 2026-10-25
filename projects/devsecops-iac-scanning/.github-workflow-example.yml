@@ -1,0 +1,30 @@
+# Copy this file to .github/workflows/iac-security.yml in a repository
+# where you want to run these checks. No cloud credentials are required.
+name: IaC Security
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Checkov
+        run: python -m pip install checkov
+
+      - name: Scan Terraform
+        run: checkov -d projects/terraform-azure-infrastructure
