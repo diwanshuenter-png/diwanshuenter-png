@@ -133,13 +133,13 @@ Apply to Preprod -> Verify -> Production Approval -> Apply
 
 | Project | Skills demonstrated | Project guide |
 |---|---|---|
-| **Terraform Azure Infrastructure** | Terraform modules, variables, state, Azure resources, environment separation | [Explore project](projects/terraform-azure-infrastructure/README.md) |
-| **Azure DevOps Terraform Pipeline** | YAML templates, validation, IaC scans, plan, approvals, deployment flow | [Explore project](projects/azure-devops-terraform-pipeline/README.md) |
-| **DevSecOps IaC Scanning** | Checkov, TFLint, Semgrep, Gitleaks, Terraform security checks | [Explore project](projects/devsecops-iac-scanning/README.md) |
+| **Terraform Azure Infrastructure** | Terraform modules, variables, outputs, Azure Resource Group and Storage Account | [Project guide](projects/terraform-azure-infrastructure/README.md) · [Terraform code](projects/terraform-azure-infrastructure/environments/preprod/main.tf) · [Reusable module](projects/terraform-azure-infrastructure/modules/resource_group/main.tf) |
+| **Azure DevOps Terraform Pipeline** | YAML pipeline, Terraform installation, formatting, validation and security stage | [Project guide](projects/azure-devops-terraform-pipeline/README.md) · [Pipeline YAML](projects/azure-devops-terraform-pipeline/azure-pipelines.yml) |
+| **DevSecOps IaC Scanning** | Checkov scanning and CI security workflow example | [Project guide](projects/devsecops-iac-scanning/README.md) · [GitHub Actions example](projects/devsecops-iac-scanning/.github-workflow-example.yml) |
 
 [📁 Browse all project guides](projects/README.md)
 
-**Next step for each lab:** add tested code, a sanitized successful-run screenshot or pipeline run link, architecture diagram, and setup/cleanup instructions. Never commit credentials or Terraform state.
+**Portfolio note:** code and workflow examples are committed for review. Pipeline execution and Azure deployment are intentionally not being run as part of this profile update. Treat the examples as starter code until you test them in your own environment. Never commit credentials or Terraform state.
 
 ## 🎯 What I'm Working Toward
 
