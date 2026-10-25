@@ -133,9 +133,9 @@ Apply to Preprod -> Verify -> Production Approval -> Apply
 
 | Project | Skills demonstrated | Project guide |
 |---|---|---|
-| **Terraform Azure Infrastructure** | Terraform modules, variables, outputs, Azure Resource Group and Storage Account | [Project guide](projects/terraform-azure-infrastructure/README.md) · [Terraform code](projects/terraform-azure-infrastructure/environments/preprod/main.tf) · [Reusable module](projects/terraform-azure-infrastructure/modules/resource_group/main.tf) |
-| **Azure DevOps Terraform Pipeline** | YAML pipeline, Terraform installation, formatting, validation and security stage | [Project guide](projects/azure-devops-terraform-pipeline/README.md) · [Pipeline YAML](projects/azure-devops-terraform-pipeline/azure-pipelines.yml) |
-| **DevSecOps IaC Scanning** | Checkov scanning and CI security workflow example | [Project guide](projects/devsecops-iac-scanning/README.md) · [GitHub Actions example](projects/devsecops-iac-scanning/.github-workflow-example.yml) |
+| **Terraform Azure Infrastructure** | Terraform modules, variables, outputs, Azure Resource Group and Storage Account | [Project guide](projects/terraform-azure-infrastructure/README.md) · [Architecture diagram](projects/terraform-azure-infrastructure/docs/architecture.svg) · [Terraform code](projects/terraform-azure-infrastructure/environments/preprod/main.tf) · [Reusable module](projects/terraform-azure-infrastructure/modules/resource_group/main.tf) |
+| **Azure DevOps Terraform Pipeline** | YAML pipeline, Terraform installation, formatting, validation and security stage | [Project guide](projects/azure-devops-terraform-pipeline/README.md) · [Pipeline diagram](projects/azure-devops-terraform-pipeline/docs/pipeline-flow.svg) · [Pipeline YAML](projects/azure-devops-terraform-pipeline/azure-pipelines.yml) |
+| **DevSecOps IaC Scanning** | Checkov scanning and CI security workflow example | [Project guide](projects/devsecops-iac-scanning/README.md) · [Security diagram](projects/devsecops-iac-scanning/docs/security-gates.svg) · [GitHub Actions example](projects/devsecops-iac-scanning/.github-workflow-example.yml) |
 
 [📁 Browse all project guides](projects/README.md)
 
