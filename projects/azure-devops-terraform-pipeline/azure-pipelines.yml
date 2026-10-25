@@ -1,0 +1,58 @@
+# Example validation pipeline. Configure an Azure DevOps service connection
+# before enabling Azure-authenticated plan/apply stages.
+trigger:
+  branches:
+    include:
+      - main
+
+pr:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  terraformWorkingDirectory: '$(Build.SourcesDirectory)/projects/terraform-azure-infrastructure/environments/preprod'
+
+stages:
+  - stage: Validate
+    displayName: Format and validate Terraform
+    jobs:
+      - job: TerraformValidate
+        steps:
+          - checkout: self
+
+          - task: TerraformInstaller@1
+            displayName: Install Terraform
+            inputs:
+              terraformVersion: '1.8.5'
+
+          - bash: terraform fmt -check -recursive
+            displayName: Check Terraform formatting
+            workingDirectory: '$(Build.SourcesDirectory)/projects/terraform-azure-infrastructure'
+
+          - bash: |
+              terraform init -backend=false
+              terraform validate
+            displayName: Initialize providers and validate
+            workingDirectory: '$(terraformWorkingDirectory)'
+
+  - stage: Security
+    displayName: Infrastructure security checks
+    dependsOn: Validate
+    condition: succeeded()
+    jobs:
+      - job: Scan
+        steps:
+          - checkout: self
+          - bash: |
+              python3 -m pip install --user checkov
+              echo "##vso[task.prependpath]$HOME/.local/bin"
+              checkov -d "$(Build.SourcesDirectory)/projects/terraform-azure-infrastructure" --quiet
+            displayName: Run Checkov IaC scan
+
+# Add a plan stage only after configuring secure Azure authentication,
+# remote state, variables, and an approved service connection.
+# Keep apply behind an environment approval; never deploy from untrusted PRs.
