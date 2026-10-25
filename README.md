@@ -59,14 +59,19 @@ I'm building hands-on expertise in **Cloud, DevOps, and DevSecOps**, with a focu
 
 *The snake animation will appear after the GitHub Actions workflow completes successfully for the first time.*
 
-## 🚀 Hands-on Projects & Learning
+## 🚀 Featured Hands-on Projects
 
-- **Terraform on Azure** — resource groups, storage accounts, networking, modules, variables and state management.
-- **Azure DevOps pipelines** — YAML templates and CI/CD flows for format, validation, security scans, plan, approval and apply.
-- **Infrastructure security** — experimenting with IaC scanning and secret detection.
-- **Cloud networking** — VNets, subnets, peering, NSGs, load balancing and secure connectivity.
+> These are structured portfolio labs and project guides. They are labelled honestly as learning scaffolds until the implementation and successful runs are added.
 
-These are hands-on learning areas; please check individual repositories for the actual implementation and current status.
+| Project | Skills demonstrated | Project guide |
+|---|---|---|
+| **Terraform Azure Infrastructure** | Terraform modules, variables, state, Azure resources, environment separation | [Explore project](projects/terraform-azure-infrastructure/README.md) |
+| **Azure DevOps Terraform Pipeline** | YAML templates, validation, IaC scans, plan, approvals, deployment flow | [Explore project](projects/azure-devops-terraform-pipeline/README.md) |
+| **DevSecOps IaC Scanning** | Checkov, TFLint, Semgrep, Gitleaks, Terraform security checks | [Explore project](projects/devsecops-iac-scanning/README.md) |
+
+[📁 Browse all project guides](projects/README.md)
+
+**Next step for each lab:** add tested code, a sanitized successful-run screenshot or pipeline run link, architecture diagram, and setup/cleanup instructions. Never commit credentials or Terraform state.
 
 ## 🎯 What I'm Working Toward
 
