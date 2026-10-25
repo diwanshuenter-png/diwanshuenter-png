@@ -14,13 +14,11 @@
 
 ## 👋 About Me
 
-## 👋 About Me
+I am a **Senior Cloud & DevSecOps Engineer with 15+ years of professional experience**, focused on cloud infrastructure, automation, infrastructure security, and reliable platform engineering.
 
-I am a **Senior Cloud & DevSecOps Engineer** with 15+ years of professional experience, focused on cloud infrastructure, automation, infrastructure security, and reliable platform engineering.
+My technical focus includes **Microsoft Azure, Terraform, Infrastructure as Code (IaC), Azure DevOps, GitHub Actions, CI/CD automation, Docker, Kubernetes (AKS), and cloud security**. I work toward scalable infrastructure, secure deployment pipelines, and repeatable engineering practices that improve reliability and operational efficiency.
 
-My technical expertise includes **Microsoft Azure, Terraform, Infrastructure as Code (IaC), Azure DevOps, GitHub Actions, CI/CD automation, Docker, Kubernetes (AKS), and cloud security.** I focus on designing scalable infrastructure, implementing secure deployment pipelines, integrating security into the software delivery lifecycle, and applying automation to improve operational efficiency and reliability.
-
-I believe in engineering solutions that are **secure by design, automated, scalable, and production-ready.** I continuously strengthen my cloud architecture and DevSecOps capabilities through hands-on projects, practical labs, and real-world implementation scenarios.
+My approach emphasizes **security by design, automation, maintainability, and production-minded engineering**. I continue to deepen my cloud architecture and DevSecOps capabilities through hands-on projects, practical labs, and systematic troubleshooting.
 
 ### 🛠️ Core Focus Areas
 
@@ -28,7 +26,8 @@ I believe in engineering solutions that are **secure by design, automated, scala
 - 🔑 **Identity & Access Management:** Microsoft Entra ID, Azure RBAC, Managed Identities, OIDC, and secure authentication
 - 🏗️ **Infrastructure as Code (IaC):** Terraform, reusable modules, variables, state management, remote backends, and environment separation
 - 🔁 **CI/CD & Pipeline Engineering:** Azure DevOps YAML, GitHub Actions, reusable templates, parameters, conditions, pipeline approvals, and deployment automation
-- 🔐 **DevSecOps & Infrastructure Security:** Checkov, TFLint, Semgrep, Gitleaks, TruffleHog, tfsec, secrets scanning, SAST, and IaC security
+- 🔐 **DevSecOps & Infrastructure Security:** Checkov, tfsec, Terrascan, KICS, Semgrep, Gitleaks, TruffleHog, secrets scanning, SAST, and IaC security
+- ✅ **Terraform Quality & Cost:** TFLint, Infracost, formatting, validation, and plan review
 - 🛡️ **Cloud Governance & Secrets Management:** Azure Policy, least privilege, Key Vault, and policy-as-code
 - 📦 **Containers & Orchestration:** Docker and Azure Kubernetes Service (AKS)
 - 📊 **Monitoring & Observability:** Azure Monitor, Prometheus, Grafana, logging, and troubleshooting
@@ -46,6 +45,9 @@ I believe in engineering solutions that are **secure by design, automated, scala
   <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white" alt="Azure DevOps" />
   <img src="https://img.shields.io/badge/DevSecOps-222222?style=for-the-badge&logo=owasp&logoColor=white" alt="DevSecOps" />
   <img src="https://img.shields.io/badge/CI%2FCD-Automation-00C9A7?style=for-the-badge" alt="CI/CD Automation" />
+  <img src="https://img.shields.io/badge/Prometheus-Monitoring-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-Observability-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Checkov-IaC%20Security-222222?style=for-the-badge" alt="Checkov" />
 </p>
 
 ## 🗺️ My Cloud & DevOps Learning Journey
@@ -93,7 +95,7 @@ This section brings together the topics I have studied and practised through gui
 
 - **Infrastructure as Code scanning:** Checkov, tfsec, Terrascan, KICS, and policy-as-code concepts.
 - **Code and secret scanning:** Semgrep, Gitleaks, and TruffleHog.
-- **Terraform quality and cost:** TFLint and Infracost.
+- **Terraform quality and cost:** TFLint for linting and Infracost for cost estimation.
 - Integrating checks into CI before Terraform plan/deployment, understanding findings, managing false positives, and using blocking gates intentionally.
 - Secrets management, secure pipeline logs, remote state protection, identity federation, RBAC, and production approval practices.
 - SAST/DAST concepts and the role of security checks in a DevSecOps workflow.
