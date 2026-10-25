@@ -36,6 +36,74 @@ I'm building hands-on expertise in **Cloud, DevOps, and DevSecOps**, with a focu
   <img src="https://img.shields.io/badge/CI%2FCD-Automation-00C9A7?style=for-the-badge" alt="CI/CD Automation" />
 </p>
 
+## 🧭 Cloud & DevOps Skill Map
+
+<table>
+  <tr>
+    <th align="left">Domain</th>
+    <th align="left">Skills and technologies</th>
+  </tr>
+  <tr>
+    <td><b>Azure Fundamentals & Architecture</b></td>
+    <td>Subscriptions and resource groups, Storage Accounts, VMs and VM Scale Sets, VNets and subnets, availability zones, NSGs, VNet peering, Load Balancer, Application Gateway, Azure Firewall, Front Door, Traffic Manager, Bastion, NAT Gateway</td>
+  </tr>
+  <tr>
+    <td><b>Infrastructure as Code</b></td>
+    <td>Terraform providers and version constraints, variables and outputs, tfvars, modules, count and for_each, state management, remote backend concepts, plan/apply lifecycle</td>
+  </tr>
+  <tr>
+    <td><b>CI/CD & Automation</b></td>
+    <td>Azure DevOps YAML, stages/jobs/steps, reusable templates, parameters, conditions, pipeline approvals, GitHub Actions, build agents and service connections</td>
+  </tr>
+  <tr>
+    <td><b>Cloud Identity & Security</b></td>
+    <td>Microsoft Entra ID concepts, RBAC, workload identity federation/OIDC concepts, secret-handling practices, least privilege, security gates</td>
+  </tr>
+  <tr>
+    <td><b>DevSecOps & Quality</b></td>
+    <td>Checkov, TFLint, Semgrep, Gitleaks, TruffleHog, tfsec, policy and secret scanning concepts</td>
+  </tr>
+  <tr>
+    <td><b>Containers & Observability</b></td>
+    <td>Docker and AKS concepts, Azure Monitor, Prometheus and Grafana fundamentals</td>
+  </tr>
+  <tr>
+    <td><b>SCM & Linux</b></td>
+    <td>Git branching, commits, fetch/pull/merge/push, GitHub repositories and pull-request workflows, Linux command-line fundamentals</td>
+  </tr>
+</table>
+
+## 🏗️ How I Approach a Delivery Pipeline
+
+```text
+Code / Pull Request
+        |
+        v
+Checkout + Terraform Format + Validate
+        |
+        v
+Lint + IaC Security Scan + Secret Scan
+        |
+        v
+Terraform Plan + Review
+        |
+        v
+Manual Approval / Environment Gate
+        |
+        v
+Apply to Preprod -> Verify -> Production Approval -> Apply
+```
+
+**Engineering principles I practise:** small reusable modules, reviewed plans before changes, clear environment separation, least-privilege identity, no secrets in source control, and explicit approvals for sensitive deployments.
+
+## 🧪 Practical Learning Highlights
+
+- **Terraform workflow:** practise the init → fmt/validate → plan → review → apply lifecycle and understand why state and provider lock files matter.
+- **Reusable YAML:** separate pipeline logic into templates, pass parameters deliberately, and use conditions to control execution.
+- **Security-first delivery:** put code and infrastructure scans before deployment, make blocking findings explicit, and publish understandable scan output.
+- **Azure connectivity:** learn the role of VNets, subnets, peering, network security groups, routing and controlled ingress/egress.
+- **Troubleshooting:** investigate authentication, RBAC, backend permissions, agent/tool availability, working directories and pipeline conditions methodically.
+
 ## 📊 GitHub Dashboard
 
 <div align="center">
