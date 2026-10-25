@@ -2,6 +2,10 @@
 
 A hands-on Infrastructure as Code project demonstrating reusable Terraform patterns for Azure.
 
+## Architecture diagram
+
+![Terraform on Azure reference architecture](docs/architecture.svg)
+
 ## Skills demonstrated
 - Terraform providers, variables, outputs, and modules
 - Azure Resource Group and Storage Account provisioning
