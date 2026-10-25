@@ -2,6 +2,10 @@
 
 A learning project for a safe, staged Terraform delivery workflow using Azure DevOps YAML.
 
+## Pipeline flow diagram
+
+![Terraform CI/CD pipeline flow](docs/pipeline-flow.svg)
+
 ## Skills demonstrated
 - YAML templates and parameters
 - Terraform init, fmt, validate, and plan
