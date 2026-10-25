@@ -2,6 +2,10 @@
 
 A practical lab plan for adding security and quality checks to Infrastructure as Code before deployment.
 
+## Security gate diagram
+
+![DevSecOps security checks flow](docs/security-gates.svg)
+
 ## Tools to practice
 - **Checkov** — infrastructure policy checks
 - **TFLint** — Terraform linting
