@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+  <rect width="1000" height="650" rx="22" fill="#0b1220"/>
+  <text x="500" y="46" font-family="Arial,sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#ffffff">Terraform CI/CD — Proposed Pipeline Flow</text>
+  <text x="500" y="73" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#a9c1dd">Illustrative workflow • not executed by this portfolio update</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="310" y="100" width="380" height="58" rx="10" fill="#17345a" stroke="#60a5fa" stroke-width="2"/><text x="500" y="135" font-size="17" font-weight="700" fill="#fff">Pull Request / Code Review</text>
+    <path d="M500 158 V183" stroke="#8bc5ff" stroke-width="3"/><path d="M492 175 L500 184 L508 175" fill="none" stroke="#8bc5ff" stroke-width="3"/>
+    <rect x="310" y="188" width="380" height="58" rx="10" fill="#17345a" stroke="#60a5fa" stroke-width="2"/><text x="500" y="223" font-size="17" font-weight="700" fill="#fff">Format + Validate + Lint</text>
+    <path d="M500 246 V271" stroke="#8bc5ff" stroke-width="3"/><path d="M492 263 L500 272 L508 263" fill="none" stroke="#8bc5ff" stroke-width="3"/>
+    <rect x="310" y="276" width="380" height="58" rx="10" fill="#17345a" stroke="#60a5fa" stroke-width="2"/><text x="500" y="311" font-size="17" font-weight="700" fill="#fff">IaC Scan + Secret Scan</text>
+    <path d="M500 334 V359" stroke="#8bc5ff" stroke-width="3"/><path d="M492 351 L500 360 L508 351" fill="none" stroke="#8bc5ff" stroke-width="3"/>
+    <rect x="310" y="364" width="380" height="58" rx="10" fill="#17345a" stroke="#60a5fa" stroke-width="2"/><text x="500" y="399" font-size="17" font-weight="700" fill="#fff">Terraform Plan + Human Review</text>
+    <path d="M500 422 V447" stroke="#8bc5ff" stroke-width="3"/><path d="M492 439 L500 448 L508 439" fill="none" stroke="#8bc5ff" stroke-width="3"/>
+    <rect x="310" y="452" width="380" height="58" rx="10" fill="#4b3516" stroke="#fbbf24" stroke-width="2"/><text x="500" y="487" font-size="17" font-weight="700" fill="#fff">Environment Approval Gate</text>
+    <path d="M500 510 V535" stroke="#8bc5ff" stroke-width="3"/><path d="M492 527 L500 536 L508 527" fill="none" stroke="#8bc5ff" stroke-width="3"/>
+    <rect x="310" y="540" width="380" height="58" rx="10" fill="#123a36" stroke="#22c55e" stroke-width="2"/><text x="500" y="575" font-size="17" font-weight="700" fill="#fff">Apply Reviewed Plan → Verify</text>
+  </g>
+  <text x="500" y="625" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#a9c1dd">Protect production with branch policies, secure identity and approvals.</text>
+</svg>
