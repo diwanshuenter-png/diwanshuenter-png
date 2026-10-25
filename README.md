@@ -16,17 +16,25 @@
 
 ## 👋 About Me
 
-I am a **Cloud, DevOps, and DevSecOps enthusiast** focused on building secure, scalable, and automated cloud infrastructure. I work with **Microsoft Azure, Terraform, Azure DevOps, GitHub Actions, and Infrastructure as Code (IaC)** to develop practical solutions for infrastructure automation and CI/CD.
+I am a **Senior Cloud & DevSecOps Engineer** with 15+ years of professional experience, focused on cloud infrastructure, automation, infrastructure security, and reliable platform engineering.
 
-I'm continuously strengthening my hands-on skills through real-world projects, cloud labs, automation, security scanning, and production-oriented DevOps practices. My goal is to build reliable cloud platforms by combining **automation, security, scalability, and continuous learning**.
+My technical expertise includes **Microsoft Azure, Terraform, Infrastructure as Code (IaC), Azure DevOps, GitHub Actions, CI/CD automation, Docker, Kubernetes (AKS), and cloud security.** I focus on designing scalable infrastructure, implementing secure deployment pipelines, integrating security into the software delivery lifecycle, and applying automation to improve operational efficiency and reliability.
 
-- ☁️ Cloud: **Microsoft Azure**
-- 🏗️ IaC: **Terraform**, modules, variables, state and remote backends
-- 🔁 CI/CD: **Azure DevOps YAML**, GitHub Actions, pipeline approvals
-- 🔐 Security: **Checkov, TFLint, Semgrep, Gitleaks, TruffleHog, tfsec**
-- 📦 Containers: **Docker, Azure Kubernetes Service (AKS)**
-- 📊 Monitoring: **Azure Monitor, Prometheus, Grafana**
-- 🌱 Current focus: Azure architecture, reusable pipeline templates, cloud security and troubleshooting
+I believe in engineering solutions that are **secure by design, automated, scalable, and production-ready.** I continuously strengthen my cloud architecture and DevSecOps capabilities through hands-on projects, practical labs, and real-world implementation scenarios.
+
+### 🛠️ Core Focus Areas
+
+- ☁️ **Cloud Infrastructure & Architecture:** Microsoft Azure, cloud networking, VNets, subnets, private connectivity, and Azure network services
+- 🔑 **Identity & Access Management:** Microsoft Entra ID, Azure RBAC, Managed Identities, OIDC, and secure authentication
+- 🏗️ **Infrastructure as Code (IaC):** Terraform, reusable modules, variables, state management, remote backends, and environment separation
+- 🔁 **CI/CD & Pipeline Engineering:** Azure DevOps YAML, GitHub Actions, reusable templates, parameters, conditions, pipeline approvals, and deployment automation
+- 🔐 **DevSecOps & Infrastructure Security:** Checkov, TFLint, Semgrep, Gitleaks, TruffleHog, tfsec, secrets scanning, SAST, and IaC security
+- 🛡️ **Cloud Governance & Secrets Management:** Azure Policy, least privilege, Key Vault, and policy-as-code
+- 📦 **Containers & Orchestration:** Docker and Azure Kubernetes Service (AKS)
+- 📊 **Monitoring & Observability:** Azure Monitor, Prometheus, Grafana, logging, and troubleshooting
+- 🐧 **Scripting & Automation:** Bash, Azure CLI, and PowerShell
+- 💰 **Cost Optimization:** Azure cost management and Infracost
+- 🌱 **Current Technical Focus:** Azure architecture, reusable pipeline templates, cloud security, and production-oriented troubleshooting
 
 ## 🧰 Tech Stack
 
