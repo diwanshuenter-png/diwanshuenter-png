@@ -1,56 +1,86 @@
-# Hi, I'm Diwanshu Jaswal 👋
+<!-- Animated header -->
+<div align="center">
 
-### Cloud & DevOps Engineer | Microsoft Azure | Terraform | CI/CD | DevSecOps
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,50:5B5FEF,100:00C9A7&height=200&section=header&text=Diwanshu%20Jaswal&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cloud%20%7C%20DevOps%20%7C%20DevSecOps&descAlignY=58&descSize=18" width="100%" alt="Animated Cloud and DevOps banner" />
 
-I’m building and practicing secure, reliable cloud infrastructure and automation, with a focus on Microsoft Azure, Infrastructure as Code, and CI/CD pipelines. I bring experience from the telecom domain and am expanding my hands-on cloud and DevOps engineering skills through practical labs and continuous learning.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00C9A7&center=true&vCenter=true&width=800&lines=Azure+%7C+Terraform+%7C+CI%2FCD;Building+secure+cloud+infrastructure;Automating+with+Azure+DevOps+and+GitHub+Actions;Learning+by+building%2C+improving+through+practice" alt="Typing animation" /></a>
 
-- ☁️ **Cloud:** Microsoft Azure
-- 🏗️ **Infrastructure as Code:** Terraform, reusable modules, remote state
-- 🔁 **CI/CD:** Azure DevOps YAML pipelines, GitHub Actions
-- 🔐 **DevSecOps:** Checkov, TFLint, Semgrep, Gitleaks, TruffleHog, tfsec
-- 📦 **Containers & orchestration:** Docker, Azure Kubernetes Service (AKS)
-- 📊 **Monitoring:** Azure Monitor, Prometheus, Grafana
-- 🌱 **Currently learning:** Azure architecture, advanced Azure DevOps YAML templates, and cloud security
+<p>
+  <img src="https://komarev.com/ghpvc/?username=diwanshuenter-png&label=Profile%20views&color=0078D4&style=flat" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/diwanshuenter-png?label=Followers&style=flat&color=5B5FEF" alt="GitHub followers" />
+</p>
 
----
+</div>
 
-## 🛠️ Technologies & Tools
+## 👋 About Me
 
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+I'm building hands-on expertise in **Cloud, DevOps, and DevSecOps**, with a focus on Microsoft Azure, Infrastructure as Code, automation, and secure CI/CD. I bring experience from the telecom domain and am growing my cloud engineering practice through labs, projects, and continuous learning.
 
----
+- ☁️ Cloud: **Microsoft Azure**
+- 🏗️ IaC: **Terraform**, modules, variables, state and remote backends
+- 🔁 CI/CD: **Azure DevOps YAML**, GitHub Actions, pipeline approvals
+- 🔐 Security: **Checkov, TFLint, Semgrep, Gitleaks, TruffleHog, tfsec**
+- 📦 Containers: **Docker, Azure Kubernetes Service (AKS)**
+- 📊 Monitoring: **Azure Monitor, Prometheus, Grafana**
+- 🌱 Current focus: Azure architecture, reusable pipeline templates, cloud security and troubleshooting
 
-## 🚀 Hands-on Learning & Projects
+## 🧰 Tech Stack
 
-These are areas I’m practicing and developing through labs and personal projects:
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=azure,terraform,docker,kubernetes,linux,git,github,bash,powershell&perline=9" alt="Cloud and DevOps technology icons" />
+</div>
 
-- **Terraform on Azure** — resource groups, storage accounts, networking, modules, variables, and state management.
-- **Azure DevOps CI/CD** — YAML pipelines for Terraform formatting, validation, security checks, planning, approvals, and deployment.
-- **Infrastructure security** — experimenting with IaC and secret-scanning tools such as Checkov, tfsec, Semgrep, and Gitleaks.
-- **Cloud networking** — virtual networks, subnets, peering, NSGs, load balancing, and secure connectivity.
+<p align="center">
+  <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white" alt="Azure DevOps" />
+  <img src="https://img.shields.io/badge/DevSecOps-222222?style=for-the-badge&logo=owasp&logoColor=white" alt="DevSecOps" />
+  <img src="https://img.shields.io/badge/CI%2FCD-Automation-00C9A7?style=for-the-badge" alt="CI/CD Automation" />
+</p>
 
-Explore my repositories for the code and current state of each lab.
+## 📊 GitHub Dashboard
 
----
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=diwanshuenter-png&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diwanshuenter-png&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=diwanshuenter-png&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" width="70%" />
+</div>
 
-## 🎯 My Focus
+> Stats and language cards depend on third-party services and may occasionally be unavailable or rate-limited.
 
-- Build repeatable and secure cloud infrastructure using Infrastructure as Code.
-- Design maintainable CI/CD pipelines with validation, security scanning, and approval gates.
-- Improve cloud security, monitoring, reliability, and troubleshooting skills.
-- Share practical learning through clear, reusable examples.
+## 🐍 Contribution Snake
 
-## 🤝 Let's Connect
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/diwanshuenter-png/diwanshuenter-png/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/diwanshuenter-png/diwanshuenter-png/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated snake moving across the GitHub contribution graph" src="https://raw.githubusercontent.com/diwanshuenter-png/diwanshuenter-png/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</div>
 
-- GitHub: [@diwanshuenter-png](https://github.com/diwanshuenter-png)
+*The snake animation will appear after the GitHub Actions workflow completes successfully for the first time.*
 
----
+## 🚀 Hands-on Projects & Learning
 
-⭐ *Learning by building, improving through practice, and automating with purpose.*
+- **Terraform on Azure** — resource groups, storage accounts, networking, modules, variables and state management.
+- **Azure DevOps pipelines** — YAML templates and CI/CD flows for format, validation, security scans, plan, approval and apply.
+- **Infrastructure security** — experimenting with IaC scanning and secret detection.
+- **Cloud networking** — VNets, subnets, peering, NSGs, load balancing and secure connectivity.
+
+These are hands-on learning areas; please check individual repositories for the actual implementation and current status.
+
+## 🎯 What I'm Working Toward
+
+- Reusable, secure infrastructure-as-code patterns
+- Maintainable CI/CD pipelines with security gates and approvals
+- Production-minded cloud architecture, monitoring and troubleshooting
+- Clear documentation and repeatable labs
+
+## 🤝 Connect
+
+<div align="center">
+  <a href="https://github.com/diwanshuenter-png"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,50:5B5FEF,100:0078D4&height=100&section=footer" width="100%" alt="Animated footer" />
+</div>
