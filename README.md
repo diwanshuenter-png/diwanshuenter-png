@@ -108,9 +108,9 @@ This section brings together the topics I have studied and practised through gui
 ### 📚 Certifications & Continuous Learning
 
 - Microsoft Azure Fundamentals (**AZ-900**) — completed.
-- ITIL 4 Foundation — certification previously recorded with a validity period ending July 2026; check current status if displaying it as active.
-- Microsoft Azure DevOps Engineer Expert (**AZ-400**) — learning / preparation target.
-- Azure Solutions Architect Expert (**AZ-305**) — planned learning goal.
+- ITIL 4 Foundation
+- Microsoft Azure DevOps Engineer Expert (**AZ-400**) — preparation target.
+- Azure Solutions Architect Expert (**AZ-305**) — planned learning goal/preparation target
 
 ## 🧭 Cloud & DevOps Skill Map
 
