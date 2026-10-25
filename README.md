@@ -14,7 +14,11 @@
 
 ## 👋 About Me
 
-I'm building hands-on expertise in **Cloud, DevOps, and DevSecOps**, with a focus on Microsoft Azure, Infrastructure as Code, automation, and secure CI/CD. I bring experience from the telecom domain and am growing my cloud engineering practice through labs, projects, and continuous learning.
+## 👋 About Me
+
+I am a **Cloud, DevOps, and DevSecOps enthusiast** focused on building secure, scalable, and automated cloud infrastructure. I work with **Microsoft Azure, Terraform, Azure DevOps, GitHub Actions, and Infrastructure as Code (IaC)** to develop practical solutions for infrastructure automation and CI/CD.
+
+I'm continuously strengthening my hands-on skills through real-world projects, cloud labs, automation, security scanning, and production-oriented DevOps practices. My goal is to build reliable cloud platforms by combining **automation, security, scalability, and continuous learning**.
 
 - ☁️ Cloud: **Microsoft Azure**
 - 🏗️ IaC: **Terraform**, modules, variables, state and remote backends
