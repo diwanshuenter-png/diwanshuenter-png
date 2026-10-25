@@ -36,6 +36,82 @@ I'm building hands-on expertise in **Cloud, DevOps, and DevSecOps**, with a focu
   <img src="https://img.shields.io/badge/CI%2FCD-Automation-00C9A7?style=for-the-badge" alt="CI/CD Automation" />
 </p>
 
+## 🗺️ My Cloud & DevOps Learning Journey
+
+This section brings together the topics I have studied and practised through guided learning, labs, and troubleshooting. It represents my learning journey; individual topics may be at different stages of hands-on practice.
+
+### ☁️ Microsoft Azure & Cloud Architecture
+
+- **Cloud foundations:** tenants, Microsoft Entra ID, subscriptions, management groups, resource groups, Azure regions and availability zones.
+- **Compute & storage:** Azure Virtual Machines, VM Scale Sets, Storage Accounts, storage tiers, replication options, and storage security concepts.
+- **Networking:** VNets, subnets, VNet peering, Network Security Groups (NSGs), Azure Bastion, NAT Gateway, Azure Load Balancer, Application Gateway, Azure Firewall, Azure Front Door, Traffic Manager, routing and DNS resolution.
+- **Network architecture:** Hub-and-Spoke design, centralized inspection, User Defined Routes (UDRs), subnet segmentation, private connectivity, and secure access patterns.
+- **Platform and data connectivity concepts:** App Service, Azure Functions, Key Vault, and private connectivity to managed database services.
+- **Identity & access:** Microsoft Entra ID, RBAC, service connections, service principals, federated credentials, OIDC, and least-privilege access.
+
+### 🏗️ Terraform & Infrastructure as Code
+
+- Terraform configuration structure: `provider.tf`, `main.tf`, `variables.tf`, `outputs.tf`, `.tfvars`, and `.terraform.lock.hcl`.
+- Providers, `required_providers`, version constraints, `terraform init`, `fmt`, `validate`, `plan`, and `apply`.
+- Input variables, outputs, variable precedence, maps and nested maps, loops, `count`, `for_each`, and reusable modules.
+- Terraform state, state files, Azure Storage remote backend concepts, backend configuration, state migration concepts, and state security.
+- Environment separation for **Preprod and Production**, module reuse, resource naming, tags, and configuration organization.
+- Terraform-managed Azure resources including Resource Groups and Storage Accounts, with learning plans for networking, Key Vault, and virtual machines.
+- Cost and safety considerations: inspect plans, avoid committing state/secrets, use least privilege, protect production with approvals, and clean up lab resources.
+
+### 🔁 Git, GitHub & Source Control
+
+- Repository cloning, remotes, branches, commits, pushing and pulling changes.
+- Commands practised include `git clone`, `git remote -v`, `git fetch`, `git pull`, `git push`, `git merge`, and `git checkout -b`.
+- Feature branches, pull-request review, main-branch workflows, repository structure, README documentation, and commit history.
+- GitHub Actions workflow concepts and GitHub profile/project documentation.
+
+### ⚙️ Azure DevOps & YAML Pipelines
+
+- Azure Pipelines YAML structure: triggers, pools, stages, jobs, steps, tasks, variables, parameters, conditions, and working directories.
+- Azure Pipelines agents and pools, including the difference between a pool name and an agent name.
+- Reusable YAML templates, template parameters, template invocation, file/folder organization, and expressions such as `${{ parameters.name }}`.
+- Classic pipeline concepts and multi-stage YAML pipelines.
+- Terraform pipeline lifecycle: **Init → Format/Validate → Security Scan → Plan → Manual Approval → Apply**.
+- Preprod and Production stages, environment approvals, conditional execution, skipped/failed stage handling, and manual validation.
+- Terraform installer and Azure CLI task concepts, service connections, secure Azure authentication, and pipeline working-directory troubleshooting.
+- A structured three-week YAML templates learning roadmap is part of my ongoing study plan.
+
+### 🔐 DevSecOps, Security & Quality Gates
+
+- **Infrastructure as Code scanning:** Checkov, tfsec, Terrascan, KICS, and policy-as-code concepts.
+- **Code and secret scanning:** Semgrep, Gitleaks, and TruffleHog.
+- **Terraform quality and cost:** TFLint and Infracost.
+- Integrating checks into CI before Terraform plan/deployment, understanding findings, managing false positives, and using blocking gates intentionally.
+- Secrets management, secure pipeline logs, remote state protection, identity federation, RBAC, and production approval practices.
+- SAST/DAST concepts and the role of security checks in a DevSecOps workflow.
+
+### 📦 Containers, Kubernetes & Observability
+
+- Docker fundamentals and container workflow concepts.
+- Azure Kubernetes Service (AKS) fundamentals.
+- Monitoring and observability concepts using Azure Monitor, Prometheus, and Grafana.
+- Learning focus: connect deployment health, metrics, logs, alerts, and troubleshooting into operational workflows.
+
+### 🐧 Linux, CLI & Troubleshooting
+
+- Linux command-line fundamentals and Azure CLI usage.
+- Troubleshooting patterns for missing Terraform binaries, provider/backend initialization, incorrect backend configuration, Azure login and tenant context, expired CLI sessions, RBAC/storage permission errors, OIDC federated credential mismatches, agent availability, and YAML working-directory issues.
+- A systematic debugging approach: inspect the exact error, verify identity and permissions, confirm tool versions and paths, validate configuration, and retry only after addressing the root cause.
+
+### 🌐 DNS & Request Flow Fundamentals
+
+- DNS resolution from browser and operating-system caches through recursive resolvers, root servers, TLD servers, and authoritative DNS.
+- A records, CNAME records, TTL, DNS caching, and the distinction between name resolution and serving website content.
+- The basic request path from DNS resolution to HTTPS/TLS connection and the web server or application entry point.
+
+### 📚 Certifications & Continuous Learning
+
+- Microsoft Azure Fundamentals (**AZ-900**) — completed.
+- ITIL 4 Foundation — certification previously recorded with a validity period ending July 2026; check current status if displaying it as active.
+- Microsoft Azure DevOps Engineer Expert (**AZ-400**) — learning / preparation target.
+- Azure Solutions Architect Expert (**AZ-305**) — planned learning goal.
+
 ## 🧭 Cloud & DevOps Skill Map
 
 <table>
