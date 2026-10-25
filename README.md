@@ -129,7 +129,7 @@ Apply to Preprod -> Verify -> Production Approval -> Apply
 
 ## 🚀 Featured Hands-on Projects
 
-> These are structured portfolio labs and project guides. They are labelled honestly as learning scaffolds until the implementation and successful runs are added.
+> These portfolio projects now include starter implementation files and runnable workflow examples. They are still **not claimed as deployed or successfully tested in Azure**; run and verify them in your own environment before describing them as completed.
 
 | Project | Skills demonstrated | Project guide |
 |---|---|---|
